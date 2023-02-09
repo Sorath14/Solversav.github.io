@@ -1,0 +1,24 @@
+.navbar{
+    background-color: white;
+}
+.navbar-nav li a{
+    color:black;
+}
+
+#sec4{
+    background-image: url(https://api.solverscave.com/wp-content/uploads/2023/01/top-view-email-icon-with-two-messages-scaled.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1100px;
+}
+.overlay{
+    background: rgb(0, 0, 0, 0.8);
+    min-height: 1100px
+}
+
+#sec4 a button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid #58AE57;
+}

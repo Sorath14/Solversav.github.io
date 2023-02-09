@@ -1,0 +1,203 @@
+
+  /*@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Edu+VIC+WA+NT+Beginner&family=Heebo:wght@800&family=Ubuntu:ital@0;1&family=Varela+Round&family=ZCOOL+QingKe+HuangYou&display=swap');*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body p{
+    line-height: normal;
+    font-size: 20px; 
+}
+
+.btn-success{
+    background-color: #61CE70;
+    border: none;
+     border-radius: 0px;
+     font-size: 18px;
+     font-weight: 1rem;
+}
+.card-form{
+    background: rgba(248, 249, 250, 0.76);
+    border-radius: 0px;
+    width: 105%;
+}
+
+.form-control{
+    border-radius: 0px;
+}
+.navbar-nav li a{
+    color: rgba(255, 255, 255, 0.721);
+}
+
+#home-section{
+    background-image: url(https://api.solverscave.com/wp-content/uploads/2023/01/Solverscave-banner-bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 1000px;
+}
+/*.dark-overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-height: 800px;
+    background: rgb(0,0,0,0.8);
+}*/
+
+
+.home-inner{
+    padding-top: 250px;
+}
+.home-inner h1, .inner-sec3 h1, .sec4-inner h1{
+    line-height: normal;
+    font-size: 42px;
+    letter-spacing: 5px;
+}
+.home-inner h4{
+    font-weight: 100;
+}
+.home-inner i{
+    color: #61CE70;
+    font-size: 15px;
+}
+.card{
+    background-color: #CFD0D1;
+}
+p{
+    font-size: larger;
+    line-height: 1.5rem;
+    word: spacing 1px ;
+}
+h1{
+    font-weight: bolder;
+}
+
+#home-section a button:hover{
+    background-color: white;
+    color: black;
+}
+
+#sec1{
+    height: 900px;
+}
+#sec1 
+.top{
+    overflow: hidden;
+    width: 250px;
+    height: 50px;
+    background-color:#E4FAF7;
+    color: #0CCCB6;
+    border-radius: 25px;
+    align-items: center;
+}
+#sec1 a button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid #58AE57;
+}
+#sec2{
+    height: 1600px;
+    background-color:#F2F2F2 ;
+}
+.single-img:hover{
+    cursor: pointer;
+    margin-top: -0.700rem;
+}
+#sec2 a button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid #58AE57;
+}
+
+#sec3{
+    height: 550px;
+}
+#sec3, .all{
+    border-radius: 5px;
+}
+#sec3 i{
+    font-size: 50px;
+    color: #61CE70;
+}
+#sec3 i span{
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #61CE70;
+}
+.inner-sec3{
+    border-radius: 25px;
+    display: flex;
+    margin-top: 70px;
+    box-shadow: -0 -0 3px 0 gray, 0 -0 3px 0 gray, 0 5px 0 0 #61CE70 ; 
+}
+.inner-sec3 h1 h5{
+    color: #1B1B4F;
+}
+
+#sec4{
+    background-image: url(https://api.solverscave.com/wp-content/uploads/2023/01/top-view-email-icon-with-two-messages-scaled.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 850px;
+}
+.overlay{
+    background: rgb(0, 0, 0, 0.8);
+    min-height: 850px
+}
+
+#sec4 a button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid #58AE57;
+}
+#footer{
+    height: 300px;
+}
+#footer ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#footer ul li a i{
+    font-size: 25px;
+    padding: 8px;
+}
+.icon i{
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    width: 40px;
+    height: 40px;
+
+}
+#footer a button:hover{
+        background-color: white;
+        color: black;
+        border: 2px solid #58AE57;
+}
+.icon i:hover{
+    background-color: #58AE57;
+}
+#footer .wp ul li a:hover{
+    color: #58AE57;
+
+}
+#footer ul li a span:hover{
+    color: #58AE57;
+}
+@media (max-width:776px){
+    #sec2{
+        height: 2500px;
+    }
+    #sec3{
+        height: 650px;
+    }
+    #sec4{
+        height: 1500px;
+    }
+    .overlay{
+        height:1500px ;
+    }
+}
